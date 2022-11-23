@@ -7,6 +7,7 @@ git
             log --graph             [Exibe a Famosa Timeline de eventos]
             shortlog                [Versão curtinha e simplificada]
             shortlog -sn            [Exibe somente o numero de contribuições de cada autor]
+            show *INSIRA_A_HASTAG*  [Exibe tudo que houve naquele commit em específico]
             status                  [Mostra alterações e situação atual do desenvolvimento]
             add *                   [Adiciona todos os arquivos ao staged, que é o proximo commit ]
             commit -m "msg"         [Cria o staged, Entre as aspas fica a mensagem personalizada]
