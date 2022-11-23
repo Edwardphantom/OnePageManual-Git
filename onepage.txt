@@ -1,15 +1,20 @@
 onepage manual do GIT :
 
+git
+            status                  [Mostra alterações e situação atual do desenvolvimento]
+            add *                   [Adiciona todos os arquivos ao staged, que é o proximo commit ]
+            commit -m "msg"         [Cria o staged, Entre as aspas fica a mensagem personalizada]
+
 git config
             --global user.name "Edward Phantom"             [Seta o nome do usuário]
             --global user.email "eduardo@vrphantom.com"     [Seta o E-mail do usuário]
             --global core.editor kate                       [Seta o Editor Padrão de texto]
             --global init.defaultBranch Desenvolvimento     [Seta o nome padrão do branch inicial ]
+            --list                                          [Mostra Tudo]
 
 git config
             user.name   [Mostra o nome de usuário]
             user.email  [Mostra o e-mail]
-            --lisr      [Mostra Tudo]
 
 LifeCycle/Status do arquivo :
 Untracked   : existe, mas o Git não sabe
