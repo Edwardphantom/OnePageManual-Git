@@ -1,6 +1,11 @@
 onepage manual do GIT :
 
 git
+            log                     [Exibe os ultimos eventos no projeto]
+            log --author="Edu"      [Exibe as modificações de autores que tenham "Edu" no nome]
+            log --decorate          [Exibe info adicional, como mudança de Branch]
+            shortlog                [Versão curtinha e simplificada]
+            shortlog -sn            [Exibe somente o numero de contribuições de cada autor]
             status                  [Mostra alterações e situação atual do desenvolvimento]
             add *                   [Adiciona todos os arquivos ao staged, que é o proximo commit ]
             commit -m "msg"         [Cria o staged, Entre as aspas fica a mensagem personalizada]
