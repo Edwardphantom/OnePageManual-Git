@@ -1,4 +1,4 @@
-onepage manual do GIT , :
+Onepage manual do GIT
 
 git
             log                     [Exibe os ultimos eventos no projeto - o *Q* sai do log!!!]
@@ -8,9 +8,12 @@ git
             shortlog                [Versão curtinha e simplificada]
             shortlog -sn            [Exibe somente o numero de contribuições de cada autor]
             show *INSIRA_A_HASTAG*  [Exibe tudo que houve naquele commit em específico]
+            diff                    [Mostra as diferenças entre as versões dos arquivos]
+            diff --name-only        [Mostra somente quais arquivos foram alterados]
             status                  [Mostra alterações e situação atual do desenvolvimento]
             add *                   [Adiciona todos os arquivos ao staged, que é o proximo commit ]
             commit -m "msg"         [Cria o staged, Entre as aspas fica a mensagem personalizada]
+            commit -am "msg"        [Faz o stagged, mas arquivos untracked são ignorados]
 
 git config
             --global user.name "Edward Phantom"             [Seta o nome do usuário]
