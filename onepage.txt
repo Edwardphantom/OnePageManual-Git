@@ -1,0 +1,20 @@
+onepage manual do GIT :
+
+git config
+            --global user.name "Edward Phantom"             [Seta o nome do usuário]
+            --global user.email "eduardo@vrphantom.com"     [Seta o E-mail do usuário]
+            --global core.editor kate                       [Seta o Editor Padrão de texto]
+            --global init.defaultBranch Desenvolvimento     [Seta o nome padrão do branch inicial ]
+
+git config
+            user.name   [Mostra o nome de usuário]
+            user.email  [Mostra o e-mail]
+            --lisr      [Mostra Tudo]
+
+LifeCycle/Status do arquivo :
+Untracked   : existe, mas o Git não sabe
+unmodified  : existe pro git, mas não teve alterações
+Modified    : o Arquivo agora tem modificações
+staged      : o arquivo está marcado para Envio no Commit
+
+Após o Commit, todos voltam a ser unmodified.
