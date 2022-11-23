@@ -1,9 +1,10 @@
-onepage manual do GIT :
+onepage manual do GIT , :
 
 git
-            log                     [Exibe os ultimos eventos no projeto]
+            log                     [Exibe os ultimos eventos no projeto - o *Q* sai do log!!!]
             log --author="Edu"      [Exibe as modificações de autores que tenham "Edu" no nome]
             log --decorate          [Exibe info adicional, como mudança de Branch]
+            log --graph             [Exibe a Famosa Timeline de eventos]
             shortlog                [Versão curtinha e simplificada]
             shortlog -sn            [Exibe somente o numero de contribuições de cada autor]
             status                  [Mostra alterações e situação atual do desenvolvimento]
