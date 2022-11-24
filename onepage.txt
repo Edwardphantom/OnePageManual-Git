@@ -30,6 +30,11 @@ git config
 git config
             user.name   [Mostra o nome de usuário]
             user.email  [Mostra o e-mail]
+git remote
+            -v                                                              [Exibe mais informações]
+            add createaname git@github.com:username/reponame.git            [Adiciona o repositório no github ao seu projeto inicializado]
+
+
 
 LifeCycle/Status do arquivo :
 Untracked   : existe, mas o Git não sabe
