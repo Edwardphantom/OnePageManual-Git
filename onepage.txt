@@ -13,7 +13,12 @@ git
             status                  [Mostra alterações e situação atual do desenvolvimento]
             add *                   [Adiciona todos os arquivos ao staged, que é o proximo commit ]
             commit -m "msg"         [Cria o staged, Entre as aspas fica a mensagem personalizada]
-            commit -am "msg"        [Faz o stagged, mas arquivos untracked são ignorados]
+            commit -am "msg"        [stagged de tudo, mas arquivos untracked são ignorados]
+            checkout nomedoarquivo  [Restaura um arquivo a sua edição anterior]
+            reset HEAD              [Retira do stagged arquivos que estejam prontos pro commit]
+            reset --soft            [Reverte o commit, mas mantém todo mundo em stagged]
+            reset --mixed           [Reverte como o soft, e remove do stagged, indo pra modified]
+            reset --hard            [Reverte de maneira bruta, ignorando totalmente o commit]
 
 git config
             --global user.name "Edward Phantom"             [Seta o nome do usuário]
