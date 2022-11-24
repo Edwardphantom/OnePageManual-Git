@@ -2,8 +2,9 @@
 
 Versão 1.0
 
-este é o Readme do Onepage Manual de Git Feito Pelo Eduardo
+Este é o Readme do Onepage Manual de Git Feito Por Eduardo Fernandes Larrubia
 
-O Manual precisa preservar a versão em Texto plano para consulta em terminais.
-E a versão em documento aberto para impressão em uma página ( Frente e Verso)
+O Manual precisa preservar uma versão em Texto plano para consulta em terminais.
+
+E a versão Adequada para impressão para impressão em uma página ( Frente e Verso)
 

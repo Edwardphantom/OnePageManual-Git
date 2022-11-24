@@ -1,4 +1,4 @@
-Onepage manual do GIT
+Onepage manual do GIT - Em Caso de Pânico, use o "Q" para sair de telas sem saída!
 
 git
             log                     [Exibe os ultimos eventos no projeto - o *Q* sai do log!!!]
@@ -31,8 +31,8 @@ git config
             user.name   [Mostra o nome de usuário]
             user.email  [Mostra o e-mail]
 git remote
-            -v                                                              [Exibe mais informações]
-            add createaname git@github.com:username/reponame.git            [Adiciona o repositório no github ao seu projeto inicializado]
+            -v                                                                 [Verbose, Exibe mais informações]
+            add insira_um_nome git@github.com:username/reponame.git            [Adiciona o repositório no github ao seu projeto inicializado]
 
 
 
