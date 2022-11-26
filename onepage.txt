@@ -21,8 +21,8 @@ git
             reset --hard            [Reverte de maneira bruta, ignorando totalmente o commit]
 
 git config
-            --global user.name "Edward Phantom"             [Seta o nome do usuário]
-            --global user.email "eduardo@vrphantom.com"     [Seta o E-mail do usuário]
+            --global user.name "Jhon Doe"                   [Seta o nome do usuário]
+            --global user.email "Jhon@doe.com"              [Seta o E-mail do usuário]
             --global core.editor kate                       [Seta o Editor Padrão de texto]
             --global init.defaultBranch Desenvolvimento     [Seta o nome padrão do branch inicial ]
             --list                                          [Mostra Tudo]

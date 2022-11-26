@@ -3,3 +3,8 @@ Mini SSH Tutorial para chave SSH no linux
 lembrando que em resumo , você precisa gerar uma chave ssh para você,
 Adicionar ela ao seu usuário, e então cadastrar a chave no github, dessa forma
 ele consegue identificar você como um usuário válido e então aceitar seus envios
+
+Gerar a chave SSH , substitua o e-mail pelo seu e-mail:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+
