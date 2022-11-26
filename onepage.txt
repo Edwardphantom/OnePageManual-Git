@@ -31,9 +31,11 @@ git config
             user.name   [Mostra o nome de usuário]
             user.email  [Mostra o e-mail]
 git remote
-            -v                                                                 [Verbose, Exibe mais informações]
-            add insira_um_nome git@github.com:username/reponame.git            [Adiciona o repositório no github ao seu projeto inicializado]
+            -v                                                          [Verbose, Exibe mais informações do que *Sem o -v*]
+            add insira_um_nome git@github.com:username/reponame.git     [Adiciona o repositório no github ao seu projeto inicializado]
 
+git push
+            -u insira_um_nome main                                      ["Empurra" pro repositório, usando: nome criado no add + branch no repo]
 
 
 LifeCycle/Status do arquivo :
