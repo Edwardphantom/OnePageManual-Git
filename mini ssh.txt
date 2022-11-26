@@ -1,5 +1,5 @@
 Mini SSH Tutorial para chave SSH para o Git no linux (26/11/2022)
-Tudo aqui pode ser melhor referenciado em :
+Tudo aqui está melhor detalhado em:
 https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 lembrando que em resumo , você precisa gerar uma chave ssh para você,
