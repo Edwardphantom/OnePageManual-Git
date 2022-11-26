@@ -1,4 +1,6 @@
-Mini SSH Tutorial para chave SSH no linux
+Mini SSH Tutorial para chave SSH para o Git no linux (26/11/2022)
+Tudo aqui pode ser melhor referenciado em :
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 lembrando que em resumo , você precisa gerar uma chave ssh para você,
 Adicionar ela ao seu usuário, e então cadastrar a chave no github, dessa forma
@@ -7,4 +9,26 @@ ele consegue identificar você como um usuário válido e então aceitar seus en
 Gerar a chave SSH , substitua o e-mail pelo seu e-mail:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
+Insira a senha , possivelmente 2 vezes
 
+-------------------------------------
+
+Inicie o agente SSH :
+eval "$(ssh-agent -s)"
+
+"Dependendo do seu ambiente, talvez seja necessário usar um comando diferente" - Lembre-se disso
+
+Adicione sua chave privada ao seu usuário :
+ssh-add ~/.ssh/id_ed25519
+
+Copie sua chave pública :
+cat ~/.ssh/id_ed25519.pub
+
+foto do perfil github > Settings > access >> SSH and GPG Keys > New SSH Key >
+
+Title : coloque algo que diga daonde veio a chave , como "notebook de trabalho"
+Key type : se não sabe o que está escolhendo, deixe em "authentication key"
+key : Cole sua chave ali. tem um texto em cinza claro que pode te ajudar a entender o que é a chave a ser colada.
+
+clique em "Add SSH key"
+Pronto, Agora seu comando push deve funcionar sem o problema da chave SSH/usuário não autorizado
