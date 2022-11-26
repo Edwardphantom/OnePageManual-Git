@@ -6,7 +6,7 @@ lembrando que em resumo , você precisa gerar uma chave ssh para você,
 Adicionar ela ao seu usuário, e então cadastrar a chave no github, dessa forma
 ele consegue identificar você como um usuário válido e então aceitar seus envios
 
-Gerar a chave SSH , substitua o e-mail pelo seu e-mail:
+Gerar a chave SSH , substitua o e-mail pelo seu e-mail usado no github:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
 Insira a senha , possivelmente 2 vezes
