@@ -15,6 +15,7 @@ git
             commit -m "msg"         [Cria o staged, Entre as aspas fica a mensagem personalizada]
             commit -am "msg"        [stagged de tudo, mas arquivos untracked são ignorados]
             checkout nomedoarquivo  [Restaura um arquivo a sua edição anterior]
+            checkout -b "novonome"  [Cria um novo branch e alterna pra ele]
             reset HEAD              [Retira do stagged arquivos que estejam prontos pro commit]
             reset --soft            [Reverte o commit, mas mantém todo mundo em stagged]
             reset --mixed           [Reverte como o soft, e remove do stagged, indo pra modified]
