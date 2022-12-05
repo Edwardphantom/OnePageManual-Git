@@ -1,6 +1,7 @@
 Onepage manual do GIT - Em Caso de Pânico, use o "Q" para sair de telas sem saída!
 
 git
+            init                    [inicializa monitoramento do git para o diretório]
             log                     [Exibe os ultimos eventos no projeto - o *Q* sai do log!!!]
             log --author="Edu"      [Exibe as modificações de autores que tenham "Edu" no nome]
             log --decorate          [Exibe info adicional, como mudança de Branch]
@@ -19,6 +20,8 @@ git
             checkout nomedoarquivo  [Restaura um arquivo a sua edição anterior]
             checkout nomedobranch   [muda para o branch selecionado]
             checkout -b "novonome"  [Cria um novo branch e alterna pra ele]
+            merge nomedobranch      [mescla os branchs faça de dentro do branch principal]
+            rebase nomedobranch     [mescla o branch destruindo o histórico de ramificações , faça de dentro do branch principal]
             reset HEAD              [Retira do stagged arquivos que estejam prontos pro commit]
             reset --soft            [Reverte o commit, mas mantém todo mundo em stagged]
             reset --mixed           [Reverte como o soft, e remove do stagged, indo pra modified]
@@ -49,3 +52,5 @@ Modified    : o Arquivo agora tem modificações
 staged      : o arquivo está marcado para Envio no Commit
 
 Após o Commit, todos voltam a ser unmodified.
+O Rebase elimina os branchs, sem usar novos commits, mas destrói a ordem e o historico
+o Merge elimina os branchs, mas usa novos commits, e mantém a ordem e o histórico
