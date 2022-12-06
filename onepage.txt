@@ -33,14 +33,12 @@ git config
             --global core.editor kate                       [Seta o Editor Padrão de texto]
             --global init.defaultBranch Desenvolvimento     [Seta o nome padrão do branch inicial ]
             --list                                          [Mostra Tudo]
-
 git config
             user.name   [Mostra o nome de usuário]
             user.email  [Mostra o e-mail]
 git remote
             -v                                                          [Verbose, Exibe mais informações do que *Sem o -v*]
             add insira_um_nome git@github.com:username/reponame.git     [Adiciona o repositório no github ao seu projeto inicializado]
-
 git push
             -u insira_um_nome main                                      ["Empurra" pro repositório, usando: nome criado no add + branch no repo]
 
@@ -51,6 +49,7 @@ unmodified  : existe pro git, mas não teve alterações
 Modified    : o Arquivo agora tem modificações
 staged      : o arquivo está marcado para Envio no Commit
 
-Após o Commit, todos voltam a ser unmodified.
-O Rebase elimina os branchs, sem usar novos commits, mas destrói a ordem e o historico
-o Merge elimina os branchs, mas usa novos commits, e mantém a ordem e o histórico
+* Após o Commit, todos voltam a ser unmodified.
+* O Rebase elimina os branchs, sem usar novos commits, mas destrói a ordem e o historico
+* O Merge elimina os branchs, mas usa novos commits, e mantém a ordem e o histórico
+* No arquivo .gitignore em cada linha você especifica um nome de arquivo ou extensão específica para serem ignorados pela detecção do git
