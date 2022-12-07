@@ -6,7 +6,7 @@ git
             log --author="Edu"      [Exibe as modificações de autores que tenham "Edu" no nome]
             log --decorate          [Exibe info adicional, como mudança de Branch]
             log --graph             [Exibe a Famosa Timeline de eventos]
-            tag -a numerodaversao   [Define o numero da versão]
+            tag -a 1.0.0            [Define o numero da versão, sendo que 1.0.0 ]
             tag -m "notadatag"      [Define o comentário a ser associado a tag]
             stash                   [Reserva todas alterações e disponibiliza o estado anterior a última mudança detectada]
             stash list              [Mostra todas as versões reservadas no stash]
