@@ -8,6 +8,7 @@ git
             log --graph             [Exibe a Famosa Timeline de eventos]
             tag -a 1.0.0            [Define o numero da versão]
             tag -m "notadatag"      [Define o comentário a ser associado a tag]
+            tag -d numerodatag      [Apaga a tag localmente]
             stash                   [Reserva todas alterações e disponibiliza o estado anterior a última mudança detectada]
             stash list              [Mostra todas as versões reservadas no stash]
             stash apply             [Aplica as mudanças reservadas dentro stash]
@@ -32,6 +33,7 @@ git
             reset --soft            [Reverte o commit, mas mantém todo mundo em stagged]
             reset --mixed           [Reverte como o soft, e remove do stagged, indo pra modified]
             reset --hard            [Reverte de maneira bruta, ignorando totalmente o commit]
+            revert  codigodocommit  [Reverte o que foi feito no commit especificado, gerando um novo commit, e mantendo o antigo]
 
 git config
             --global user.name "Jhon Doe"                   [Seta o nome do usuário]
@@ -48,6 +50,7 @@ git remote
             add insira_um_nome git@github.com:username/reponame.git     [Adiciona o repositório no github ao seu projeto inicializado]
 git push
             --tags                                                      [Envia as tags criadas]
+            --delete nomedobranchremoto numerodatag                     [Apaga remotamente a tag informada]
             nomedobranchlocal nomedobranchremoto                        [Envia tudo que o commit tiver preparado]
             -u branchlocal branchremoto                                 ["Empurra" pro repositório, sendo os  criado no add + branch no repo]
 
