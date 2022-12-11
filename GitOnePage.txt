@@ -1,4 +1,4 @@
-Onepage manual do GIT - Em Caso de Pânico, use o "Q" para sair de telas sem saída!
+Onepage manual do GIT - Em Caso de Pânico, use o "Q" para sair de telas sem saída!!
 
 git
             init                    [inicializa monitoramento do git para o diretório]
