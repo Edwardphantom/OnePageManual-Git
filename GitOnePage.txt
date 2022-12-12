@@ -1,4 +1,4 @@
-Onepage manual do GIT - Em Caso de Pânico, use o "Q" para sair de telas sem saída!
+﻿Onepage manual do GIT - Em Caso de Pânico, use o "Q" para sair de telas sem saída!
 
 git
             init                    [inicializa monitoramento do git para o diretório]
@@ -69,5 +69,5 @@ staged      : o arquivo está marcado para Envio no Commit
 Está numa máquina nova, e precisa continuar trabalhando em um projeto que só exite remoto ?
 comece executando o git init no diretorio desejado, então:
 consutle o mini manual ssh e adicione a chave pública no servidor, então use o git config --global para ajustar nome de usuário e email, 
-então use o "git remote add... " para adicionar o projeto em questão, então use o "git pull https..." para baixar uma cópia do projeto,
+então use o "git remote add... " para adicionar o projeto em questão, então use o "git pull git@githu..." para baixar uma cópia do projeto,
 então envie normalmente com o push quando precisar, se certificando de que o branch de destino seja igual ao que você usa localmente.
