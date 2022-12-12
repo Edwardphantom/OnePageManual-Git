@@ -54,6 +54,8 @@ git push
             nomedobranchlocal nomedobranchremoto                        [Envia tudo que o commit tiver preparado]
             -u branchlocal branchremoto                                 ["Empurra" pro repositório, sendo os  criado no add + branch no repo]
 
+git pull nomedofuturobranch https... 					[baixa o conteudo remoto para trabalhar localmente]
+
 
 LifeCycle/Status do arquivo :
 Untracked   : existe, mas o Git não sabe
