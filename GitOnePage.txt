@@ -47,7 +47,7 @@ git config
             user.email  [Mostra o e-mail]
 git remote
             -v                                                          [Verbose, Exibe mais informações do que *Sem o -v*]
-            add insira_um_nome git@github.com:username/reponame.git     [Adiciona o repositório no github ao seu projeto inicializado]
+            add nomeieumbranch git@github.com:username/reponame.git     [Adiciona o repositório no github ao seu projeto inicializado]
 git push
             --tags                                                      [Envia as tags criadas]
             --delete nomedobranchremoto numerodatag                     [Apaga remotamente a tag informada]
