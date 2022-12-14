@@ -32,3 +32,5 @@ key : Cole sua chave ali. tem um texto em cinza claro que pode te ajudar a enten
 
 clique em "Add SSH key"
 Pronto, Agora seu comando push deve funcionar sem o problema da chave SSH/usuário não autorizado
+
+Nota : Testado no Windows 10 64bits & Kubuntu 22.10

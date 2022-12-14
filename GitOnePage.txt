@@ -1,4 +1,4 @@
-Onepage manual do GIT - Em Caso de Pânico, use o "Q" para sair de telas sem saída!
+﻿Onepage manual do GIT - Em Caso de Pânico, use o "Q" para sair de telas sem saída!
 
 git
             init                    [inicializa monitoramento do git para o diretório]
@@ -54,6 +54,8 @@ git push
             nomedobranchlocal nomedobranchremoto                        [Envia tudo que o commit tiver preparado]
             -u branchlocal branchremoto                                 ["Empurra" pro repositório, sendo os  criado no add + branch no repo]
 
+git pull nomedofuturobranch https... 					[baixa o conteudo remoto para trabalhar localmente]
+
 
 LifeCycle/Status do arquivo :
 Untracked   : existe, mas o Git não sabe
@@ -65,3 +67,9 @@ staged      : o arquivo está marcado para Envio no Commit
 * O Rebase elimina os branchs, sem usar novos commits, mas destrói a ordem e o historico
 * O Merge elimina os branchs, mas usa novos commits, e mantém a ordem e o histórico
 * No arquivo .gitignore em cada linha você especifica um nome de arquivo ou extensão específica para serem ignorados pela detecção do git
+
+Está numa máquina nova, e precisa continuar trabalhando em um projeto que só exite remoto ?
+comece executando o git init no diretorio desejado, então:
+consutle o mini manual ssh e adicione a chave pública no servidor, então use o git config --global para ajustar nome de usuário e email, 
+então use o "git remote add... " para adicionar o projeto em questão, então use o "git pull git@githu..." para baixar uma cópia do projeto,
+então envie normalmente com o push quando precisar, se certificando de que o branch de destino seja igual ao que você usa localmente.
