@@ -39,7 +39,7 @@ git config
             --global user.name "Jhon Doe"                   [Seta o nome do usuário]
             --global user.email "Jhon@doe.com"              [Seta o E-mail do usuário]
             --global core.editor kate                       [Seta o Editor Padrão de texto]
-            --global init.defaultBranch Desenvolvimento     [Seta o nome padrão do branch inicial ]
+            --global init.defaultBranch Desenvolvimento     [Seta o nome padrão do branch inicial]
             --global alias.x  comandoaserassociado          [Associa um comando a uma unica letra encurtando a digitação]
             --list                                          [Mostra Tudo]
 git config
